@@ -5,7 +5,7 @@
 4. 2,3の繰り返し
 
 #[リモートにも反映させたいなら]
-1. `git init #リポジトリを作成したいディレクトリ内でリポジトリを作成(又は"git clone https://git/remote/pass/repo.git"でフォルダごと作る)
+1. `git init` #リポジトリを作成したいディレクトリ内でリポジトリを作成(又は"`git clone https://git/remote/pass/repo.git"`でフォルダごと作る)
 2. `git remote add origin https://git/remote/pass/repo.git`
 3. `git add <file1> <file2> ...` #ファイルの追加("."とすればカレントディレクトリの全てのファイルを追加できる)
 4. `git commit -m "commit message"` #変更点などのメッセージを記述
